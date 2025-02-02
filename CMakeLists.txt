@@ -46,7 +46,8 @@ pico_enable_stdio_usb(EmbarcaTech_Unidade4_Clock_Temporizadores_2 0)
 
 # Add the standard library to the build
 target_link_libraries(EmbarcaTech_Unidade4_Clock_Temporizadores_2
-        pico_stdlib)
+        pico_stdlib
+        pico_time)
 
 # Add the standard include files to the build
 target_include_directories(EmbarcaTech_Unidade4_Clock_Temporizadores_2 PRIVATE
